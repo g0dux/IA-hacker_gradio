@@ -1,0 +1,10 @@
+{
+  "social_media": {
+    "Twitter": "https://twitter.com/{username}",
+    "GitHub": "https://github.com/{username}",
+    "Reddit": "https://www.reddit.com/user/{username}"
+  },
+  "leak_checks": {
+    "HaveIBeenPwned": "https://haveibeenpwned.com/unifiedsearch/{email}"
+  }
+}
