@@ -1,0 +1,5 @@
+llama-cpp-python==0.2.31
+gradio==4.*
+requests
+rich
+tqdm
