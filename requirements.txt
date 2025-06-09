@@ -1,5 +1,5 @@
-llama-cpp-python==0.2.31
-gradio==4.*
+llama-cpp-python
+gradio
 requests
 rich
 tqdm
