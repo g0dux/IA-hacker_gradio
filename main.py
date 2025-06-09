@@ -107,7 +107,8 @@ with gr.Blocks(css="footer{display:none!important}") as demo:
 # ── launch: local + link público ─────────────────────
 if __name__ == "__main__":
     demo.queue().launch(
-        share=True,          # gera https://***.gradio.live
+        share=True,            # gera link público
         server_name="0.0.0.0",
-        server_port=7860
+        server_port=7860,
+        show_api=False         # ← desliga geração da API REST e evita o bug
     )
