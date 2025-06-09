@@ -107,8 +107,6 @@ with gr.Blocks(css="footer{display:none!important}") as demo:
 # ── launch: local + link público ─────────────────────
 if __name__ == "__main__":
     demo.queue().launch(
-        share=True,            # gera link público
-        server_name="0.0.0.0",
-        server_port=7860,
-        show_api=False         # ← desliga geração da API REST e evita o bug
+        share=True,      # cria link público
+        server_port=7860 # local: http://127.0.0.1:7860
     )
